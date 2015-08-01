@@ -51,3 +51,28 @@ Bugs
 Email the bug to becky@burgerbecky.com and mention python version, integer size 
 (32 bit or 64 bit) and what version of Mac OSX
 
+Why?!?!?
+--------
+
+There are those who'd ask, why in the world did I write this in the first place?
+
+Metrowerks had this tool written only for PowerPC and it ran fine on my PowerPC Mac, however
+when Apple Introduced the Intel Macintosh, I asked Metrowerks for an Intel version of this
+tool. Metrowerks was already phasing out CodeWarrior and chose not to update this tool, which
+I relied on for automated builds of legacy apps (PowerPC and 680x0). I rolled up my sleeves
+and created an app that duplicated the original's operation and compiled it for both
+PowerPC and Intel Mac. It allowed my build system to continue to allow my code to be tested
+with the Metrowerks compiler for compatibilty (Their warnings find some very subtle issues
+in my code that help me keep my code quality high).
+
+Sadly, Rosetta, the PowerPC emulation layer was retired after Snow Leopard so, while this tool
+runs on all Intel Macs, it's usefulness is limited to PowerPC Macs and Intel Macs that are still
+compatible with Rosetta.
+
+Explore the dark regions of AppleEvents by looking at this code. Go mad. I did. It's not bad
+after you get used to the insanity.
+
+Rebecca Ann Heineman
+Olde Skuul
+http://www.burgerbecky.com
+http://www.oldeskuul.com

@@ -11,17 +11,23 @@
 #  Paths in this file should use forward slash characters, not back slashes
 #  Use \ to escape special characters like ! and #
 #  Use ! to negate a previous pattern.  But it doesn't work if the parent sub-folder was masked out already.
-# 
-
+#
 
 # Ignore project files in the root
-*.pyc
-*.pyo
-/build
-/*.egg-info
-/dist
-/temp
-/burger-*
+**/bin
+**/temp
+**/ipch
+/* Data
+
+# Allow this file to be saved
+!/bin/cmdide
+
+# IDE droppings
+*.pdb
+*.user
+*.suo
+*.opensdf
+*.sdf
 
 # Ignore Mac desktop services store files 
 .DS_Store
