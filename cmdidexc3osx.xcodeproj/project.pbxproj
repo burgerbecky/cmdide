@@ -7,17 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10FAAE67A70379675A684324 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67DB78113BD1F2042245B847 /* CoreAudio.framework */; };
+		207E013D028EA300FF97549F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 957F7268BCFABFC0E258709B /* QuartzCore.framework */; };
 		22EAB625E5BAD1D49AB4CA94 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6061B328817055E8B2E193D6 /* AppKit.framework */; };
+		277083BD259B5283D8B8923F /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB663B78C243F425CB5F622D /* IOKit.framework */; };
 		2A09D2A2A7C29333DDE40DE5 /* cmdide.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 114CAC144651F49D320512AB /* cmdide.cpp */; };
-		E5EF297A197E1F99001C362E /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5EF2979197E1F99001C362E /* Carbon.framework */; };
+		3644B1BD5F97599535872FFB /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39EDF37A025CE139D5738163 /* AudioToolbox.framework */; };
+		44F49AA4547D6D32CB2444A2 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AC54CC47F3C0DD9956B9AD3 /* OpenGL.framework */; };
+		8CDB3489D972D3BE9E3E994C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04BBF96056AA4E7B57C08772 /* Cocoa.framework */; };
+		B23A99684C7B44143D311C86 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 176C3F0503654FF92FDC346E /* AudioUnit.framework */; };
+		F023F1EC3920E93FDA8F2CB6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6C38CB99080A8ACE07C99B7 /* SystemConfiguration.framework */; };
+		FC080D7F7E774FC44096C47C /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60566A081602146F3C8BA8CA /* Carbon.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04BBF96056AA4E7B57C08772 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		114CAC144651F49D320512AB /* cmdide.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = cmdide.cpp; path = source/cmdide.cpp; sourceTree = SOURCE_ROOT; };
+		176C3F0503654FF92FDC346E /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		39EDF37A025CE139D5738163 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		4BBA7DC2A47AF9B8E4E95DD0 /* cmdide */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cmdide; sourceTree = BUILT_PRODUCTS_DIR; };
-		53A745DDC21ECBC748B26AF9 /* burger.toolxcoosx.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = burger.toolxcoosx.xcconfig; path = xcode/burger.toolxcoosx.xcconfig; sourceTree = BURGER_SDKS; };
+		60566A081602146F3C8BA8CA /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
 		6061B328817055E8B2E193D6 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
-		E5EF2979197E1F99001C362E /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		67DB78113BD1F2042245B847 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		957F7268BCFABFC0E258709B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		9AC54CC47F3C0DD9956B9AD3 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		CB663B78C243F425CB5F622D /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		E6C38CB99080A8ACE07C99B7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,7 +41,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				22EAB625E5BAD1D49AB4CA94 /* AppKit.framework in Frameworks */,
-				E5EF297A197E1F99001C362E /* Carbon.framework in Frameworks */,
+				3644B1BD5F97599535872FFB /* AudioToolbox.framework in Frameworks */,
+				B23A99684C7B44143D311C86 /* AudioUnit.framework in Frameworks */,
+				FC080D7F7E774FC44096C47C /* Carbon.framework in Frameworks */,
+				8CDB3489D972D3BE9E3E994C /* Cocoa.framework in Frameworks */,
+				10FAAE67A70379675A684324 /* CoreAudio.framework in Frameworks */,
+				277083BD259B5283D8B8923F /* IOKit.framework in Frameworks */,
+				44F49AA4547D6D32CB2444A2 /* OpenGL.framework in Frameworks */,
+				207E013D028EA300FF97549F /* QuartzCore.framework in Frameworks */,
+				F023F1EC3920E93FDA8F2CB6 /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,8 +67,16 @@
 		6555983C4FFDAFC88D6ED936 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E5EF2979197E1F99001C362E /* Carbon.framework */,
 				6061B328817055E8B2E193D6 /* AppKit.framework */,
+				39EDF37A025CE139D5738163 /* AudioToolbox.framework */,
+				176C3F0503654FF92FDC346E /* AudioUnit.framework */,
+				60566A081602146F3C8BA8CA /* Carbon.framework */,
+				04BBF96056AA4E7B57C08772 /* Cocoa.framework */,
+				67DB78113BD1F2042245B847 /* CoreAudio.framework */,
+				CB663B78C243F425CB5F622D /* IOKit.framework */,
+				9AC54CC47F3C0DD9956B9AD3 /* OpenGL.framework */,
+				957F7268BCFABFC0E258709B /* QuartzCore.framework */,
+				E6C38CB99080A8ACE07C99B7 /* SystemConfiguration.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -64,7 +95,6 @@
 				6555983C4FFDAFC88D6ED936 /* Frameworks */,
 				9796CE949CD3951E99BB35F6 /* Products */,
 				4CE489F4A9041625DE5927C3 /* source */,
-				53A745DDC21ECBC748B26AF9 /* burger.toolxcoosx.xcconfig */,
 			);
 			name = cmdide;
 			sourceTree = "<group>";
@@ -74,12 +104,12 @@
 /* Begin PBXNativeTarget section */
 		832E4F078B44E6A2FD9B1B07 /* cmdide */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 787EFEEE71AEA80499BB96CD /* Build configuration list for PBXNativeTarget "cmdide" */;
+			buildConfigurationList = 650A8C7CA2733387C481634E /* Build configuration list for PBXNativeTarget "cmdide" */;
 			buildPhases = (
 				046E0E0EC5A3D8E1C56AD9F5 /* Sources */,
 				A41FA40AF4E2EA5034EAA5E6 /* Frameworks */,
-				0E0FAD012E61890794E64947 /* ShellScript */,
-				15E8F1D72B8BE0C13B4F7B52 /* ShellScript */,
+				210684EC2E47B1FB06F54A83 /* ShellScript */,
+				8F430460C95B37D52EABF971 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -93,13 +123,14 @@
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		1EDD0A5B0D139FEA7B815635 /* Project object */ = {
+		0968F9292BF145C06766C781 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 			};
 			buildConfigurationList = 9327958F9B76D44B1EF3B9D3 /* Build configuration list for PBXProject "cmdidexc3osx" */;
 			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
 			knownRegions = (
 				en,
@@ -114,7 +145,7 @@
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0E0FAD012E61890794E64947 /* ShellScript */ = {
+		210684EC2E47B1FB06F54A83 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -123,14 +154,14 @@
 				"${CONFIGURATION_BUILD_DIR}/${EXECUTABLE_NAME}",
 			);
 			outputPaths = (
-				"${SRCROOT}/bin/${EXECUTABLE_NAME}${IDESUFFIX}${SUFFIX}",
+				"${SRCROOT}/bin/${EXECUTABLE_NAME}xc3${SUFFIX}",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "if [ ! -d ${SRCROOT}/bin ]; then mkdir ${SRCROOT}/bin; fi\n${CP} ${CONFIGURATION_BUILD_DIR}/${EXECUTABLE_NAME} ${SRCROOT}/bin/${EXECUTABLE_NAME}${IDESUFFIX}${SUFFIX}\n";
+			shellScript = "if [ ! -d ${SRCROOT}/bin ]; then mkdir ${SRCROOT}/bin; fi\n${CP} ${CONFIGURATION_BUILD_DIR}/${EXECUTABLE_NAME} ${SRCROOT}/bin/${EXECUTABLE_NAME}xc3${SUFFIX}\n";
 			showEnvVarsInLog = 0;
 		};
-		15E8F1D72B8BE0C13B4F7B52 /* ShellScript */ = {
+		8F430460C95B37D52EABF971 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -139,11 +170,11 @@
 				"${CONFIGURATION_BUILD_DIR}/${EXECUTABLE_NAME}",
 			);
 			outputPaths = (
-				"${BURGER_SDKS}/macosx/bin/${FINAL_OUTPUT}",
+				"${BURGER_SDKS}/macosx/bin/${PRODUCT_NAME}",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "if [ \"${CONFIGURATION}\" == \"Release\" ]; then\n${BURGER_SDKS}/macosx/bin/p4 edit ${BURGER_SDKS}/macosx/bin/${FINAL_OUTPUT}\n${CP} ${CONFIGURATION_BUILD_DIR}/${EXECUTABLE_NAME} ${BURGER_SDKS}/macosx/bin/${FINAL_OUTPUT}\nfi\n\n";
+			shellScript = "if [ \"${CONFIGURATION}\" == \"Release\" ]; then \n/opt/local/bin/p4 edit ${BURGER_SDKS}/macosx/bin/${PRODUCT_NAME}\n${CP} ${CONFIGURATION_BUILD_DIR}/${EXECUTABLE_NAME} ${BURGER_SDKS}/macosx/bin/${PRODUCT_NAME}\nfi\n\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -162,16 +193,81 @@
 /* Begin XCBuildConfiguration section */
 		0E9C5EF810BB84210927454B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 53A745DDC21ECBC748B26AF9 /* burger.toolxcoosx.xcconfig */;
 			buildSettings = {
 				ARCHS = (
-					i386,
 					ppc,
+					i386,
 				);
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)/$(PRODUCT_NAME)xc3osxrel";
+				CONFIGURATION_TEMP_DIR = "$(SYMROOT)/$(PRODUCT_NAME)xc3osxrel";
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_CW_ASM_SYNTAX = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				"GCC_DYNAMIC_NO_PIC[arch=i386]" = YES;
+				"GCC_DYNAMIC_NO_PIC[arch=ppc64]" = YES;
+				"GCC_DYNAMIC_NO_PIC[arch=ppc]" = YES;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_MODEL_PPC64 = NO;
+				"GCC_MODEL_PPC64[arch=ppc64]" = YES;
+				GCC_MODEL_TUNING = G4;
+				"GCC_MODEL_TUNING[arch=ppc64]" = G5;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					NDEBUG,
+				);
+				GCC_THREADSAFE_STATICS = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				"GCC_VERSION[sdk=macosx10.4]" = com.apple.compilers.llvmgcc42;
+				"GCC_VERSION[sdk=macosx10.5]" = com.apple.compilers.llvmgcc42;
+				"GCC_VERSION[sdk=macosx10.5][arch=i386]" = 4.2;
+				"GCC_VERSION[sdk=macosx10.5][arch=ppc64]" = 4.0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_POINTER_SIGNEDNESS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = NO;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				GCC_WARN_PROTOTYPE_CONVERSION = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_PROFILING_CODE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(BURGER_SDKS)/macosx/burgerlib",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(BURGER_SDKS)/macosx/burgerlib",
+				);
+				MACH_O_TYPE = mh_execute;
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				OBJROOT = temp;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-lburgerxc3osxrel",
+				);
+				PREBINDING = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.5;
+				STRINGS_FILE_OUTPUT_ENCODING = "UTF-8";
+				SUFFIX = osxrel;
+				SYMROOT = temp;
 			};
 			name = Release;
 		};
-		27B29A5CCE0AB20F9705F2CE /* Release */ = {
+		3FCE978226F06D614C4CB065 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 			};
@@ -180,10 +276,10 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		787EFEEE71AEA80499BB96CD /* Build configuration list for PBXNativeTarget "cmdide" */ = {
+		650A8C7CA2733387C481634E /* Build configuration list for PBXNativeTarget "cmdide" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				27B29A5CCE0AB20F9705F2CE /* Release */,
+				3FCE978226F06D614C4CB065 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -198,5 +294,5 @@
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 1EDD0A5B0D139FEA7B815635 /* Project object */;
+	rootObject = 0968F9292BF145C06766C781 /* Project object */;
 }
